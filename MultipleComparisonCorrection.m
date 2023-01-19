@@ -54,6 +54,7 @@ elseif correctionMethod == "Holm" || correctionMethod == "Hochberg"     %Uses th
        [~,pRank] = sort(pValues, rankDirection);    %Sorts alpha values using the size of the p values. Direction depends on test type.
        rank = 1:length(pValues);
        rank(pRank) = rank;
+       fprintf('NOTE: Alpha values will be saved in order of corresponding p-value list.\n')
     elseif pInputType == 2
        rank = 1:pValues;
        if correctionMethod == "Holm"
@@ -61,7 +62,7 @@ elseif correctionMethod == "Holm" || correctionMethod == "Hochberg"     %Uses th
        end
        fprintf('NOTE: Alpha values will be saved in order of smallest -> largest p-value.\n')
     else
-       fprintf('Error of input type for pValues! Please check you input.\n')
+       fprintf('Error of input type for pValues! Please check your input.\n')
     end
 
 
