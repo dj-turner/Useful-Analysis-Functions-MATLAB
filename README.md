@@ -1,7 +1,7 @@
 # UsefulAnalysisFunctions-MATLAB
 A repository for any functions that I make for projects that I think could be generally useful!
 
-
+~~~
 
 MultipleComparisonCorrections.m
 
@@ -20,7 +20,7 @@ NOTE: For Holm and Hochberg corrections, the alpha values will be in the order m
 NOTE: For Holm and Hochberg corrections, if two p-values in the input table/array are identical, 
 the first listed identical p-value will be assigned the highest alpha value.
 
-
+~~~
 
 FindKeypress.m
 
