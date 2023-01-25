@@ -4,6 +4,7 @@ A repository for any functions that I make for projects that I think could be ge
 
 
 MultipleComparisonCorrections.m
+
 alphaTable = MultipleComparisonCorrection(baseAlpha, pValues, correctionMethod)
 
 A MATLAB function that can be used to correct for multiple comparsions in statistical testing. 
@@ -22,6 +23,7 @@ the first listed identical p-value will be assigned the highest alpha value.
 
 
 FindKeypress.m
+
 [keyNames, keyNumbers] = FindKeypress
 
 A MATLAB function that finds the key name and corresponsing number of a pressed key on a keyboard. 
