@@ -31,5 +31,5 @@ This function will find all key names and numbers that are pressed simultaneousl
 Run this function, then after a brief wait, press the key(s) that you want to identify simultaneously in the console.
 This function outputs two arrays, one with the key names and one with the key numbers. 
 
-NOTE: When pressing multiple keys, the order of these arrays will not match! To find the specific name-numbe rpairs,
-investigate each key separately by running the function multiple times/
+NOTE: When pressing multiple keys, the order of these arrays will not match! To find the specific name-number pairs,
+investigate each key separately by running the function multiple times.
