@@ -26,7 +26,7 @@ FindKeypress.m
 
 [keyNames, keyNumbers] = FindKeypress
 
-A MATLAB function that finds the key name and corresponsing number of a pressed key on a keyboard. 
+A MATLAB function that finds the key name and corresponding number of a pressed key on a keyboard. 
 This function will find all key names and numbers that are pressed simultaneously.
 Run this function, then after a brief wait, press the key(s) that you want to identify simultaneously in the console.
 This function outputs two arrays, one with the key names and one with the key numbers. 
